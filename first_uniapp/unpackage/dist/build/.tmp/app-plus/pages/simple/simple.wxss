@@ -1,0 +1,108 @@
+page{
+		background-color: #8fcbef;
+}
+.container {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	height: 90vh;
+}
+image {
+	width: 60vw;
+	height: 55vw;
+}
+.content {
+	position: absolute;
+	width: 100vw;
+	height: 30vh;
+	top: 0;
+	left: 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	font-weight: bold;
+	padding: 10px;
+}
+.content .str {
+	font-size: 20px;
+	color: #1e75aa;
+}
+.content .result {
+	font-size: 28px;
+	position: absolute;
+	bottom: 0;
+	width: 98vw;
+	right: 1vw;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	color: #5696BD;
+	border-top: 1px dashed #5696bd;
+}
+.box {
+	position: absolute;
+	width: 100vw;
+	height: 60vh;
+	bottom: 0;
+	left: 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.box .row {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.box .row .one {
+	width: 25vw;
+	height: 10vh;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	-webkit-box-shadow: 1px 1px 5px 5px #8fcbef;
+	        box-shadow: 1px 1px 5px 5px #8fcbef;
+	background: -webkit-linear-gradient(bottom, #8fcbef, #5696bd);
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.box .row .one:active {
+	background: #5696bd !important;
+}
+.box .row .one image {
+	width: 8vw;
+	height: 8vw;
+}
+.box .row .wide {
+	width: 50vw;
+}
+

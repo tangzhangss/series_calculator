@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/simple/simple",
+    "pages/subject/subject",
+    "pages/radix/radix",
+    "pages/social/social"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "系列计算器",
+    "navigationBarBackgroundColor": "#8fcbef"
+  },
+  "nvueCompiler": "weex",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "系列计算器",
+  "compilerVersion": "2.0.1",
+  "usingComponents": {}
+}
