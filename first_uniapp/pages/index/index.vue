@@ -7,7 +7,12 @@
 			<text>普通计算器</text>
 		</view>
 		
-		<view class="one" @tap="jumpPage('subject')">
+		<view class="one" @tap="jumpPage('social')">
+			<image class="back" src="../../static/social_back.jpg"></image>
+			<text>上海工资计算器2020</text>
+		</view>
+		
+<!-- 		<view class="one" @tap="jumpPage('subject')">
 			<image class="back" src="../../static/subject_back.jpg"></image>
 			<text>科学计算器</text>
 		</view>
@@ -15,12 +20,8 @@
 		<view class="one" @tap="jumpPage('radix')">
 			<image class="back" src="../../static/radix_back.jpg"></image>
 			<text>进制转换器</text>
-		</view>
-		
-		<view class="one" @tap="jumpPage('social')">
-			<image class="back" src="../../static/social_back.jpg"></image>
-			<text>社保计算器</text>
-		</view>
+		</view> -->
+
 		
 	</view>
 </template>

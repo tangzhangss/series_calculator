@@ -3,33 +3,9 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "__|公众号:逐运网络|__"
+				"navigationBarTitleText": "__|公众号:TZSS|__"
 			}
 		}
-        ,{
-            "path" : "pages/simple/simple",
-            "style" : {
-				"navigationBarTitleText": "普通计算器"
-			}
-        }
-        ,{
-            "path" : "pages/subject/subject",
-            "style" : {
-				"navigationBarTitleText": "科学计算器"
-			}
-        }
-        ,{
-            "path" : "pages/radix/radix",
-            "style" : {
-				"navigationBarTitleText": "进制转换器"
-			}
-        }
-        ,{
-            "path" : "pages/social/social",
-            "style" : {
-				"navigationBarTitleText": "社保计算器"
-			}
-        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle":"white",
